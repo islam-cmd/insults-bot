@@ -34,5 +34,5 @@ msg.reply('<@' + msg.author.id+ '> ' + 'Bs ya sardenah');
   }
 
 });
- console.log(process.env.TOKEN);
+ client.login(process.env.TOKEN);
 //client.login(config.token);
