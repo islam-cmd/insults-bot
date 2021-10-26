@@ -1,0 +1,18 @@
+{
+  "name": "insults-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.0-dev.fdad14099779e61cb84dcd1cb2497e0e853a6144",
+    "dotenv": "^10.0.0",
+    "insult": "^0.0.3",
+    "nodemon": "^2.0.14"
+  }
+}
