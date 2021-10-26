@@ -1,5 +1,5 @@
 require("dotenv").config();
-const config = require("../config.json");
+const config = require("./config.json");
 const insulter = require('insult');
 const { Client, Intents, Message } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
@@ -34,5 +34,5 @@ msg.reply('<@' + msg.author.id+ '> ' + 'Bs ya sardenah');
   }
 
 });
-// console.log(process.env.TOKEN);
-client.login(config.token);
+ console.log(process.env.TOKEN);
+//client.login(config.token);
